@@ -1,8 +1,11 @@
 package com.example.BackendDevelop.DTO;
 
 import com.example.BackendDevelop.CreateModels.UserCreateModel;
+import lombok.Getter;
+import lombok.Setter;
 import org.mapstruct.control.MappingControl;
-
+@Getter
+@Setter
 public class UserDTO {
     private String fullName;
     private String login;
