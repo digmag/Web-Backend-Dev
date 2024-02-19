@@ -1,6 +1,4 @@
-package com.example.BackendDevelop.CreateModels;
-
-import java.util.UUID;
+package com.example.BackendDevelop;
 
 public class UserCreateModel {
     public String fullName;

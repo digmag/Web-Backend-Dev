@@ -1,8 +1,6 @@
-package com.example.BackendDevelop.DTO;
+package com.example.BackendDevelop;
 
-import com.example.BackendDevelop.CreateModels.UserCreateModel;
 import lombok.Data;
-import org.mapstruct.control.MappingControl;
 
 @Data//прочитать для дата
 public class UserDTO {

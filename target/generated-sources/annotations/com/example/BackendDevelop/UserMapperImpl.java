@@ -1,14 +1,14 @@
-package com.example.BackendDevelop.Services;
+package com.example.BackendDevelop;
 
-import com.example.BackendDevelop.CreateModels.UserCreateModel;
-import com.example.BackendDevelop.DTO.UserDTO;
 import javax.annotation.processing.Generated;
+import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-02-19T11:35:02+0700",
+    date = "2024-02-19T11:47:42+0700",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.6 (JetBrains s.r.o.)"
 )
+@Component
 public class UserMapperImpl implements UserMapper {
 
     @Override

@@ -1,4 +1,4 @@
-package com.example.BackendDevelop.DTO;
+package com.example.BackendDevelop;
 
 public class TokenDTO {
     public String token;

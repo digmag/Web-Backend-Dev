@@ -1,8 +1,5 @@
-package com.example.BackendDevelop.Services;
+package com.example.BackendDevelop;
 
-import com.example.BackendDevelop.CreateModels.UserCreateModel;
-import com.example.BackendDevelop.DTO.TokenDTO;
-import com.example.BackendDevelop.DTO.UserDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
