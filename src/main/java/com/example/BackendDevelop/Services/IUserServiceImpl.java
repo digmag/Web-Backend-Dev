@@ -24,9 +24,7 @@ public class IUserServiceImpl implements IUserService {
 
     @SneakyThrows
     @Override
-    public void registerUser(){
-
-        var user = new User("te11st","testlogin11","testpas1swor1d");
+    public void registerUser(User user){
 
         if(userRepository.findUsersByLogin(
                 user.getLogin())

@@ -20,9 +20,9 @@ public class UserController {
     private final IUserService iUserService;
 
     @PostMapping("/api/registration")
-    public ResponseEntity registration(){
+    public ResponseEntity registration(@RequestBody User user){
 
-        iUserService.registerUser();
+        iUserService.registerUser(user);
 
         return ResponseEntity.ok("ok");
     }

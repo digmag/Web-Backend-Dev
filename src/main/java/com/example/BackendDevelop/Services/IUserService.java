@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface IUserService {
     List<User> getUsers();
-    void registerUser();
+    void registerUser(User user);
 }
