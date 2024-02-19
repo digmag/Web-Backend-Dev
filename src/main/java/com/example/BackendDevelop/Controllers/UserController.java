@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
+// сюда добавить полный RequestMapping(
+// value = ...
+// )
 public class UserController {
-    
     private final IUserService iUserService;
     @PostMapping("/api/registration")
     public ResponseEntity<TokenDTO> registration(@RequestBody UserCreateModel userCreateModel){
