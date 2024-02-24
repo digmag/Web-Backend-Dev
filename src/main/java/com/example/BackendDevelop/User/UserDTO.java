@@ -1,9 +1,11 @@
 package com.example.BackendDevelop.User;
 
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.mapstruct.control.MappingControl;
+@Builder
 @Getter
 @Setter
 public class UserDTO {
